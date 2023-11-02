@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll_dice">Roll</string>
+    <string name="select_one">One</string>
+    <string name="select_two">Two</string>
+    <string name="select_three">Three</string>
+    <string name="stop_dice">Stop</string>
+    <string name="add_one">Add One</string>
+    <string name="subtract_one">Subtract One</string>
+    <string name="roll">Roll Dice</string>
+
+<!--    String for Dialog Box, these string contain the title and option for dialog box-->
+ <string name="dialog_box_title">Roll Duration?</string>
+
+    <string-array name="options_array">
+        <item>Short Duration</item>
+        <item>Medium Duration</item>
+        <item>Long Duration</item>
+    </string-array>
+</resources>

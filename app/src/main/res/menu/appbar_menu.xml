@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <item android:id = "@+id/roll_length_selection"
+        android:title="@string/roll_dice"
+        android:icon="@drawable/timer"
+        android:visible="true"
+        app:showAsAction="ifRoom"/>
+
+ <item android:id="@+id/stop_button"
+     android:title="@string/stop_dice"
+     android:icon="@drawable/stop_circle"
+     android:visible="false"
+     app:showAsAction = "ifRoom" />
+
+ <item android:id="@+id/roll_button"
+     android:title="@string/roll_dice"
+     android:icon="@drawable/roll"
+     app:showAsAction = "ifRoom" />
+
+ <item android:id="@+id/action_one"
+     android:title="@string/select_one"
+     app:showAsAction = "never" />
+
+ <item android:id="@+id/action_two"
+     android:title="@string/select_two"
+     app:showAsAction = "never" />
+
+ <item android:id="@+id/action_three"
+     android:title="@string/select_three"
+     app:showAsAction = "never" />
+</menu>
